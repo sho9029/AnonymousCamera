@@ -1,0 +1,11 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+<video autoplay playsinline />
+
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		await JSRuntime.InvokeVoidAsync("openCamera");
+	}
+}
