@@ -161,11 +161,11 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-JnldoVPUfZ7JMDcxmiRCtxb6SacT5\/6ATTAaNkuMDg0=",
+      "hash": "sha256-WP+ywAoM1DK8rPzF3qLMopRsbH11GgR7IUcEMXiy6l0=",
       "url": "camera.js"
     },
     {
-      "hash": "sha256-E0R\/rDizZEM5mnJohySlAnP7ghCuxBC6XH2SehAukjg=",
+      "hash": "sha256-qZkj5aoiFY73ZPv6VNDiQrOJRgc5JXJwo58pMHWZTJA=",
       "url": "css\/app.css"
     },
     {
@@ -225,7 +225,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-6Fi4gnGvmvsfBtZHD50tpHB4ntmwlWWjddu+EYrsfuQ=",
+      "hash": "sha256-ZwWjKIc0MNODlP505ZA\/iwMsX1dZraNtD3tdGazkHFA=",
       "url": "index.html"
     },
     {
@@ -233,5 +233,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "XorGD\/zB"
+  "version": "4kwOybr0"
 };

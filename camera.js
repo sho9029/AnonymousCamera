@@ -13,7 +13,7 @@
         return;
     }
 
-    var constraints = { audio: true, video: { width: 1920, height: 1080 } };
+    var constraints = { audio: true, video: { width: 1920, height: 1080, facingMode: 'environment' } };
 
     navigator.mediaDevices.getUserMedia(constraints)
         .then(function (stream) {
