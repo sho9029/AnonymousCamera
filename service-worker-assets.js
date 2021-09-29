@@ -161,7 +161,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-Cy6FQ65IBlmf\/B0SJnEyTpg8u9wKJiACwTQhARiQnX0=",
+      "hash": "sha256-KSoTDNxuntnK1SFLW1UuDCg7VqSvH33c8T7qbHms9FY=",
       "url": "camera.js"
     },
     {
@@ -233,5 +233,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "Z5i8PdcX"
+  "version": "aGt70yhD"
 };

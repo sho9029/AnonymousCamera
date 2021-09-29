@@ -16,7 +16,7 @@
         return;
     }
 
-    var constraints = { audio: true, video: { width: 1920, height: 1080, facingMode: 'environment' } };
+    var constraints = { audio: true, video: { width: 1920, height: 1080, facingMode: 'environment', frameRate: { ideal: 60, max: 240 } } };
 
     navigator.mediaDevices.getUserMedia(constraints)
         .then(function (stream) {
