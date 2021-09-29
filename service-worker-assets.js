@@ -29,7 +29,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-Y2GvSVbwsYK75yEs\/L0crGzOaDLAOk5F3q75w1Zl92c=",
+      "hash": "sha256-om3N3gIftuzEQov++qU8xJDtK3g4fwtjNLpZlcfVQVE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -37,7 +37,7 @@
       "url": "_framework\/dotnet.6.0.0-rc.1.21451.13.js"
     },
     {
-      "hash": "sha256-I+asSKqEDwxyRP1PHWUPj8T1VGTS8m4pKYHr8\/FZnKA=",
+      "hash": "sha256-uC+P\/HsjjfRJ42WJptZRak\/0dYwh\/bhGsFXplLtkXD8=",
       "url": "_framework\/AnonymousCamera.dll"
     },
     {
@@ -233,5 +233,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "d6YTXwVQ"
+  "version": "Lk1LBB7L"
 };
