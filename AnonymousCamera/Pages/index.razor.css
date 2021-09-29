@@ -1,3 +1,6 @@
 ﻿video {
-    height: 100vw;
+    height: 100vh;
+    height: -webkit-fill-available;
+    width: 100vw;
+    width: -webkit-fill-available;
 }
