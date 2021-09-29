@@ -1,4 +1,5 @@
 ﻿video {
     height: 100vh;
-    display: flex;
+    position: fixed;
+    background-color: black;
 }
