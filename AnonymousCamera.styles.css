@@ -1,7 +1,7 @@
 /* /Pages/index.razor.rz.scp.css */
 video[b-a9p6r852da] {
     height: 100vh;
-    height: -webkit-fill-available;
+    display: flex;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-3xie0pq7z1] {
