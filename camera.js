@@ -1,24 +1,29 @@
 ﻿function openCamera() {
-    var video = document.querySelector('video');
-    navigator.mediaDevices = navigator.mediaDevices
-    || ((navigator.mozGetUserMedia
-    || navigator.webkitGetUserMedia) ? {
-        getUserMedia: (c) => {
-            return new Promise((y, n) => {
-                (navigator.mozGetUserMedia
-                || navigator.webkitGetUserMedia).call(navigator, c, y, n);
+    navigator.mediaDevices = navigator.mediaDevices || ((navigator.mozGetUserMedia || navigator.webkitGetUserMedia) ? {
+        getUserMedia: function (c) {
+            return new Promise(function (y, n) {
+                (navigator.mozGetUserMedia ||
+                    navigator.webkitGetUserMedia).call(navigator, c, y, n);
             });
         }
     } : null);
 
-    var constraints = { video: { facingMode: 'environment', width: 1920, height: 1080 } };
+    if (!navigator.mediaDevices) {
+        console.log("getUserMedia() not supported.");
+        return;
+    }
+
+    var constraints = { audio: true, video: { width: 1920, height: 1080 } };
+
     navigator.mediaDevices.getUserMedia(constraints)
-        .then(stream => {
-            video.srcObject = stream;
-            video.onloadedmetadata = e => {
+        .then(function (stream) {
+            var video = document.querySelector('video');
+            video.srcObject = stream
+            video.onloadedmetadata = function (e) {
                 video.play();
             };
-        }).catch(err => {
-            console.error(err);
+        })
+        .catch(function (err) {
+            console.log(err.name + ": " + err.message);
         });
 }
