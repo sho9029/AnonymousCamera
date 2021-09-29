@@ -4,8 +4,12 @@
 <video autoplay playsinline />
 
 @code {
-	protected override async Task OnInitializedAsync()
+	protected override async Task OnAfterRenderAsync(bool firstRender)
 	{
+		if(!firstRender)
+		{
+			return;
+		}
 		await JSRuntime.InvokeVoidAsync("openCamera");
 	}
 }
