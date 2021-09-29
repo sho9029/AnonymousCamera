@@ -9,7 +9,10 @@
     } : null);
 
     if (!navigator.mediaDevices) {
-        console.log("getUserMedia() not supported.");
+        var errMsg = 'getUserMedia() not supported.';
+        console.log(errMsg);
+        var p = document.querySelector('p');
+        p.textContent = errMsg;
         return;
     }
 
@@ -24,6 +27,9 @@
             };
         })
         .catch(function (err) {
-            console.log(err.name + ": " + err.message);
+            var errMsg = err.name + ': ' + err.message;
+            console.log(errMsg);
+            var p = document.querySelector('p');
+            p.textContent = errMsg;
         });
 }
