@@ -10,7 +10,7 @@
 
     if (!navigator.mediaDevices) {
         var errMsg = 'getUserMedia() not supported.';
-        console.log(errMsg);
+        console.error(errMsg);
         var p = document.querySelector('p');
         p.textContent = errMsg;
         return;
@@ -28,7 +28,7 @@
         })
         .catch(function (err) {
             var errMsg = err.name + ': ' + err.message;
-            console.log(errMsg);
+            console.error(errMsg);
             var p = document.querySelector('p');
             p.textContent = errMsg;
         });

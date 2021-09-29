@@ -161,7 +161,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-Nc21v8CQBJzujrbw7Zbkinu4NNvM1AFST2Z6UolZcuI=",
+      "hash": "sha256-Cy6FQ65IBlmf\/B0SJnEyTpg8u9wKJiACwTQhARiQnX0=",
       "url": "camera.js"
     },
     {
@@ -229,9 +229,9 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-oRlG2HQCwpSW2bt4KWVX+MQ\/9IbhQdiRKXgwoNjcLLQ=",
+      "hash": "sha256-aUzJP\/Mochi9wYubwok66JHQuaCxC4cjR0eXQkzfbzU=",
       "url": "manifest.json"
     }
   ],
-  "version": "KZPZm7t1"
+  "version": "xLenzyWC"
 };
