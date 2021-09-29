@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "AnonymousCamera.dll": "sha256-uC+P\/HsjjfRJ42WJptZRak\/0dYwh\/bhGsFXplLtkXD8=",
+      "AnonymousCamera.dll": "sha256-CXyvaZSrlaDtxvt395LFpTZlfh\/0Z6P6GBXc2A0l5z0=",
       "Microsoft.AspNetCore.Components.dll": "sha256-auKaoEtVgl9iTS2SHZoUUT105+vGPg2343wXf7MwaqM=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-z7TVZnYhFOmaeD3C88pr3cpJUj9+\/tQrDF5RUHjga5Y=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-k1uU9hHUtox6fn6RRoAf6tZdbhp2GkvUgSRi8yQZp4M=",

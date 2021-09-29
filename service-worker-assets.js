@@ -29,7 +29,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-om3N3gIftuzEQov++qU8xJDtK3g4fwtjNLpZlcfVQVE=",
+      "hash": "sha256-8dyY9d3F0ZC9JS6EjkOzac1SFBLjNDLtrC7QvGeyn7U=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -37,7 +37,7 @@
       "url": "_framework\/dotnet.6.0.0-rc.1.21451.13.js"
     },
     {
-      "hash": "sha256-uC+P\/HsjjfRJ42WJptZRak\/0dYwh\/bhGsFXplLtkXD8=",
+      "hash": "sha256-CXyvaZSrlaDtxvt395LFpTZlfh\/0Z6P6GBXc2A0l5z0=",
       "url": "_framework\/AnonymousCamera.dll"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-66KW8\/iI7BCjrOTloDIBlxg3BNqxU1pI+FJ5hABHmjQ=",
+      "hash": "sha256-tXLJ1bW5sdz3SV9wBtt2eJzJPTdO35mEIwpH1EX2LAE=",
       "url": "AnonymousCamera.styles.css"
     },
     {
@@ -165,7 +165,7 @@
       "url": "camera.js"
     },
     {
-      "hash": "sha256-qZkj5aoiFY73ZPv6VNDiQrOJRgc5JXJwo58pMHWZTJA=",
+      "hash": "sha256-E0R\/rDizZEM5mnJohySlAnP7ghCuxBC6XH2SehAukjg=",
       "url": "css\/app.css"
     },
     {
@@ -233,5 +233,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "4kwOybr0"
+  "version": "ZXF5dJRO"
 };
