@@ -1,7 +1,7 @@
 ﻿@page "/"
 @inject IJSRuntime JSRuntime
 
-<video autoplay playsinline />
+<video id="main-video" autoplay playsinline />
 
 @code {
 	protected override async Task OnAfterRenderAsync(bool firstRender)
