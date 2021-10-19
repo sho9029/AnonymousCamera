@@ -1,5 +1,5 @@
-﻿video {
+﻿#main-video {
     height: 100vh;
-    position: fixed;
-    background-color: black;
+    position: absolute;
+    left: 0px;
 }
