@@ -149,7 +149,7 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-TL1YXU+kzwbBrpecdF\/GpKPpHevy\/if5HlJHs7LuK0k=",
+      "hash": "sha256-jq140zJs9hq40ypgzJxRerwpKK7x3Sx24IEFB5duxtg=",
       "url": "AnonymousCamera.styles.css"
     },
     {
@@ -165,7 +165,7 @@
       "url": "camera.js"
     },
     {
-      "hash": "sha256-1fpYfc\/eauz\/tAxlcC1VR+R2EYKTDL1L990gVsmd0LI=",
+      "hash": "sha256-k9hfNowMX\/AdhgBW3KYhl9qgARYkDJy+W5yDGDpqCN0=",
       "url": "css\/app.css"
     },
     {
@@ -233,5 +233,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "H4O6pHY5"
+  "version": "VW5FoPmc"
 };

@@ -34,11 +34,6 @@ a, .btn-link {
     color: red;
 }
 
-#main-video {
-    position: absolute;
-    left: 0px;
-}
-
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
