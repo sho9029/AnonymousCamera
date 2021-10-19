@@ -149,7 +149,7 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-jq140zJs9hq40ypgzJxRerwpKK7x3Sx24IEFB5duxtg=",
+      "hash": "sha256-rLETEzvny\/rpLl61gxZyigDvSVqVODcCrMjx28kIRQ8=",
       "url": "AnonymousCamera.styles.css"
     },
     {
@@ -233,5 +233,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "VW5FoPmc"
+  "version": "QaeMBfnZ"
 };
