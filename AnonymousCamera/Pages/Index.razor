@@ -1,6 +1,7 @@
 ﻿@page "/"
 @inject IJSRuntime JSRuntime
 
+<button id="mute-button" @onclick="OnClickMuteButton">Mute</button>
 <video id="main-video" autoplay playsinline />
 
 @code {
@@ -11,5 +12,10 @@
 			return;
 		}
 		await JSRuntime.InvokeVoidAsync("openCamera");
+	}
+
+	private async Task OnClickMuteButton()
+	{
+		await JSRuntime.InvokeVoidAsync("toggleMute");
 	}
 }
