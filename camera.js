@@ -32,4 +32,23 @@
             var p = document.querySelector('p');
             p.textContent = errMsg;
         });
+    var video = document.querySelector('video');
+}
+
+function toggleMute() {
+    var video = document.querySelector('video');
+    video.muted = !video.muted;
+}
+
+window.onload = () => {
+    window.addEventListener('resize', () => {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        var video = document.querySelector('video');
+        var aspect = 16.0 / 9.0
+
+        video.width = width - 15;
+        video.height = (width - 15) / aspect;
+    });
+    window.onresize();
 }

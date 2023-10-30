@@ -36,7 +36,15 @@ a, .btn-link {
 
 #main-video {
     position: absolute;
+    top: 30px;
+    z-index: 0;
+}
+
+#mute-button {
+position: absolute;
     left: 0px;
+    top: 0px;
+    z-index: 100;
 }
 
 #blazor-error-ui {
